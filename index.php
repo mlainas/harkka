@@ -10,7 +10,8 @@
     // Deathyear-pudotusvalikko
     $html .= createDeathYearDropDown();
     // Jobs-pudotusvalikko
-    $html .= createJobsDropDown();
+    /* $html .= createJobsDropDown(); */
+    
     // Looppaa läpi tiedostot datasets-hakemistosta
     $path = 'datasets';
     if ($handle = opendir($path)) {
